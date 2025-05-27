@@ -14,7 +14,7 @@
 
 ---
 
-🎨 **Sobre mí**
+<h3>🎨 Sobre mí</h3>
 
 <article class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row">
     <div class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1">
@@ -25,8 +25,7 @@
 </article>
 
 ---
-
-### 🛠️ Tecnologías que uso
+<h3>🛠️ Tecnologías que uso</h3>
 
 <div align="center">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -40,7 +39,7 @@
 
 ---
 
-### 📊 Estadísticas
+<h3>📊 Estadísticas</h3>
 
 <table width="100%" align="center">
     <tr>
