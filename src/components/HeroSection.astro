@@ -1,0 +1,39 @@
+---
+import MailIcon from "../icons/MailIcon.astro";
+import SocialPill from "../components/SocialPill.astro";
+import Badge from "./Badge.astro";
+import LinkedinIcon from "../icons/LinkedinIcon.astro";
+---
+
+<div class="my-16 flex flex-col items-start max-w-[600px]">
+    <div class="flex items-center gap-x-4">
+        <img
+            src="https://avatars.githubusercontent.com/u/145029197?v=4"
+            alt="Foto Perfil Damiro Gómez"
+            class="rounded-full size-18"
+        />
+        <Badge link="https://www.linkedin.com/in/damiro-gomez/"
+            >Disponible para trabajar</Badge
+        >
+    </div>
+    <article>
+        <h2 class="mt-2 text-3xl font-medium">Hola, soy Damiro. 👋</h2>
+        <p class="mt-8">
+            <span class="text-amber-200 font-medium"
+                >Estudiante de Ingeniería Multimedia</span
+            > con experiencia creando soluciones interactivas como un e-book para
+            Canal Trece Colombia. Con enfoque en diseño visual, desarrollo web y
+            contenido digital. Combino tecnología, creatividad y rendimiento para
+            construir experiencias que conectan.
+        </p>
+
+        <div class="flex items-center gap-4 mt-4">
+            <SocialPill link="mailto:damirogomez74@gmail.com"
+                ><MailIcon class="size-4 mr-2" /> Contáctame</SocialPill
+            >
+            <SocialPill link="https://www.linkedin.com/in/damiro-gomez/"
+                ><LinkedinIcon class="size-4 mr-2" /> LinkedIn</SocialPill
+            >
+        </div>
+    </article>
+</div>

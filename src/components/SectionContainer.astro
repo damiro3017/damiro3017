@@ -1,0 +1,10 @@
+---
+const { className } = Astro.props;
+---
+
+<section
+    class=`flex flex-col mx-auto max-w-[800px] ${className}`
+    {...Astro.props}
+>
+    <slot />
+</section>

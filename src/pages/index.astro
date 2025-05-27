@@ -1,11 +1,30 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Experience from "../components/Experience.astro";
+import HeroSection from "../components/HeroSection.astro";
+import TitleSection from "../components/TitleSection.astro";
+import BriefCase from "../icons/BriefCase.astro";
+import Layout from "../layouts/Layout.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import Me from "../icons/Me.astro";
+import AboutMe from "../components/AboutMe.astro";
 ---
 
 <Layout>
-	<Welcome />
+	<SectionContainer>
+		<HeroSection />
+	</SectionContainer>
+	<SectionContainer id="experiencia">
+		<TitleSection>
+			<BriefCase class="size-6" />
+			Experiencia
+		</TitleSection>
+		<Experience />
+	</SectionContainer>
+	<SectionContainer id="sobre-mi">
+		<TitleSection>
+			<Me class="size-6" />
+			Sobre mí
+		</TitleSection>
+		<AboutMe />
+	</SectionContainer>
 </Layout>
