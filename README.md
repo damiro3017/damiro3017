@@ -44,7 +44,7 @@
 <table width="100%" align="center">
     <tr>
         <td>
-            <img src="https://github-readme-streak-stats.herokuapp.com?user=damiro3017&theme=dark&background=2d2d2d" width="100%" />
+            <img src="https://github-readme-streak-stats.herokuapp.com?user=damiro3017&theme=dark&background=2d2d2d&mode=weekly" width="100%" />
         </td>
         <td width="50%">
             <img src="https://github-readme-stats.vercel.app/api?username=damiro3017&show_icons=true&title_color=ffffff&text_color=ffffff&icon_color=00ffe7&bg_color=2d2d2d" width="100%" />
