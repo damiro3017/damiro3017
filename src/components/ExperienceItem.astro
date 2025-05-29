@@ -15,14 +15,14 @@ const { title, company, description, date } = Astro.props;
                 -start-1.5 border border-white dark:border-gray-900 dark:bg-amber-300"
     >
     </div>
-    <h3 class="text-lg font-semibold dark:text-amber-300">{title}</h3>
-    <p class="text-lg font-semibold text-gray-900 dark:text-white">
+    <h3 class="text-xl font-semibold dark:text-amber-300">{title}</h3>
+    <p class="text-xl font-semibold text-gray-900 dark:text-white">
         {company}
     </p>
-    <time class="mb-1 text-sm font-normal leading-none text-white">
+    <time class="mb-1 text-lg font-normal leading-none text-white">
         {date}
     </time>
 </div>
-<p class="mb-4 text-base font-normal text-white flex-1">
+<p class="mb-4 text-lg font-normal text-white flex-1">
     {description}
 </p>
