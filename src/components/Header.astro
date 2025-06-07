@@ -1,24 +1,32 @@
-<header>
-    <div class="flex justify-between items-center py-6 max-w-[900px] mx-auto">
-        <a href="/" class="text-2xl font-bold">Damiro Gómez</a>
-
-        <nav>
-            <ul class="flex gap-x-4">
-                <a href="/#experiencia">Experiencia</a>
-                <a href="/#sobre-mi">Sobre Mí</a>
-            </ul>
-        </nav>
-    </div>
+<header
+    class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-4xl px-4"
+>
+    <nav class="bg-white/10 backdrop-blur-2xl shadow-md rounded-xl">
+        <ul class="flex justify-center gap-x-6 py-3 text-white font-medium">
+            <li>
+                <a
+                    href="/#experiencia"
+                    class="px-2 py-1 hover:text-violet-300 transition-all duration-200"
+                >
+                    Experiencia
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/#proyectos"
+                    class="px-2 py-1 hover:text-violet-300 transition-all duration-200"
+                >
+                    Proyectos
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/#sobre-mi"
+                    class="px-2 py-1 hover:text-violet-300 transition-all duration-200"
+                >
+                    Sobre Mí
+                </a>
+            </li>
+        </ul>
+    </nav>
 </header>
-
-<style>
-    ul > a {
-        padding: 0.25rem 0.5rem;
-        font-weight: 500;
-        transition: all ease-in-out 0.2s;
-    }
-
-    ul > a:hover {
-        color: blueviolet;
-    }
-</style>

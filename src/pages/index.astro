@@ -7,20 +7,29 @@ import Layout from "../layouts/Layout.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import Me from "../icons/Me.astro";
 import AboutMe from "../components/AboutMe.astro";
+import ProjectsIcon from "../icons/ProjectsIcon.astro";
+import Projects from "../components/Projects.astro";
 ---
 
 <Layout>
 	<SectionContainer>
 		<HeroSection />
 	</SectionContainer>
-	<SectionContainer id="experiencia" className="mt-16">
+	<SectionContainer id="experiencia" class="mt-16">
 		<TitleSection>
 			<BriefCase class="size-6" />
 			Experiencia
 		</TitleSection>
 		<Experience />
 	</SectionContainer>
-	<SectionContainer id="sobre-mi" className="mt-16">
+	<SectionContainer id="proyectos">
+		<TitleSection>
+			<ProjectsIcon class="size-6" />
+			Proyectos
+		</TitleSection>
+		<Projects />
+	</SectionContainer>
+	<SectionContainer id="sobre-mi" class="mt-16">
 		<TitleSection>
 			<Me class="size-6" />
 			Sobre mí

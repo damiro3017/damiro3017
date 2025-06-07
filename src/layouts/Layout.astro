@@ -18,25 +18,4 @@ import Footer from "../components/Footer.astro";
 		<slot />
 		<Footer />
 	</body>
-
-	<style is:global>
-		:root {
-			color-scheme: light dark;
-		}
-
-		* {
-			font-family: "Outfit Variable", sans-serif;
-			scroll-behavior: smooth;
-		}
-
-		body {
-			min-height: 100vh;
-			background: conic-gradient(
-				at bottom right,
-				#0f172a,
-				#1e1a78,
-				#0f172a
-			);
-		}
-	</style>
 </html>

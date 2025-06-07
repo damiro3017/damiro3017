@@ -6,7 +6,7 @@ import EXPERIENCE from "../data/experience.json";
 <ol class="relative ml-2 border-s border-gray-200 dark:border-gray-700">
     {
         EXPERIENCE.map((experience) => (
-            <li class="mb-10 ms-4 flex gap-10">
+            <li class="mb-10 ms-4 flex flex-col md:flex-row gap-10">
                 <ExperienceItem {...experience} />
             </li>
         ))

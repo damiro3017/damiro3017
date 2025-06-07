@@ -6,7 +6,7 @@ import LinkedinIcon from "../icons/LinkedinIcon.astro";
 import BehanceIcon from "../icons/BehanceIcon.astro";
 ---
 
-<div class="my-16 flex flex-col items-start max-w-[600px]">
+<div class="my-16 mt-26 flex flex-col items-start max-w-[600px]">
     <div class="flex items-center gap-x-4">
         <img
             src="https://avatars.githubusercontent.com/u/145029197?v=4"
@@ -17,7 +17,7 @@ import BehanceIcon from "../icons/BehanceIcon.astro";
             >Disponible para trabajar</Badge
         >
     </div>
-    <article class="mt-12">
+    <article class="mt-12 text-balance">
         <h2 class="text-5xl font-medium">Hola, soy Damiro. 👋</h2>
         <p class="mt-8 text-xl">
             <span class="text-amber-200 font-medium"
@@ -28,7 +28,9 @@ import BehanceIcon from "../icons/BehanceIcon.astro";
             construir experiencias que conectan.
         </p>
 
-        <div class="flex items-center gap-4 mt-8">
+        <div
+            class="flex items-center flex-wrap justify-center sm:justify-normal gap-4 mt-8"
+        >
             <SocialPill link="https://www.behance.net/damiro3017/"
                 ><BehanceIcon class="size-4 mr-2" />Behance</SocialPill
             >

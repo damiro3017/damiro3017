@@ -1,0 +1,43 @@
+---
+import { Image } from "astro:assets";
+import Portada01 from "../assets/portada_01.png";
+import ArrowIcon from "../icons/ArrowIcon.astro";
+---
+
+<div
+    class="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] place-items-center gap-4"
+>
+    <article
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+    >
+        <a target="_blank" href="https://residential-builder.netlify.app/">
+            <Image src={Portada01} alt="" />
+        </a>
+        <div class="p-5">
+            <a href="https://residential-builder.netlify.app/">
+                <h5
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                    Proyecto Residencial
+                </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Sitio web desarrollado con React y Tailwind CSS inspirado en un
+                diseño de arquitectura residencial. Enfocado en la presentación
+                visual de proyectos inmobiliarios, con navegación fluida,
+                estructura modular y diseño responsivo.
+            </p>
+            <a
+                href="https://residential-builder.netlify.app/"
+                target="_blank"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white
+            bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none
+            focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+            cursor-pointer"
+            >
+                Conoce el proyecto
+                <ArrowIcon size="size-6" />
+            </a>
+        </div>
+    </article>
+</div>

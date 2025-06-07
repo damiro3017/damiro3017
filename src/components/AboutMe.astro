@@ -3,8 +3,8 @@ import { Image } from "astro:assets";
 import ProfileImage from "../assets/profile-photo.jpg";
 ---
 
-<article class="flex gap-10">
-    <div class="flex flex-col gap-4 text-lg">
+<article class="flex flex-col sm:flex-row gap-10">
+    <div class="flex flex-col gap-4 text-lg order-2">
         <p>
             Soy estudiante de Ingeniería Multimedia en la UNAD, actualmente
             cursando el séptimo semestre. Mi formación combina la programación,
@@ -17,7 +17,11 @@ import ProfileImage from "../assets/profile-photo.jpg";
             de certificaciones en Desarrollo Front-End.
         </p>
     </div>
-    <div class="w-full">
-        <Image src={ProfileImage} alt="Foto Damiro Gómez" class="rounded-2xl" />
+    <div class="w-full order-1 sm:order-2 flex items-center justify-center">
+        <Image
+            src={ProfileImage}
+            alt="Foto Damiro Gómez"
+            class="rounded-2xl max-w-40 sm:max-w-full"
+        />
     </div>
 </article>
