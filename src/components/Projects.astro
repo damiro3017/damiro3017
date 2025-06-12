@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import Portada01 from "../assets/portada_01.png";
+import Portada02 from "../assets/portada_02.png";
 import ArrowIcon from "../icons/ArrowIcon.astro";
 ---
 
@@ -8,12 +9,16 @@ import ArrowIcon from "../icons/ArrowIcon.astro";
     class="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] place-items-center gap-4"
 >
     <article
-        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+        class="flex flex-col h-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
     >
         <a target="_blank" href="https://residential-builder.netlify.app/">
-            <Image src={Portada01} alt="" />
+            <Image
+                src={Portada01}
+                alt=""
+                class="w-full object-cover aspect-video"
+            />
         </a>
-        <div class="p-5">
+        <div class="flex flex-col p-5 flex-grow">
             <a href="https://residential-builder.netlify.app/">
                 <h5
                     class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
@@ -27,17 +32,58 @@ import ArrowIcon from "../icons/ArrowIcon.astro";
                 visual de proyectos inmobiliarios, con navegación fluida,
                 estructura modular y diseño responsivo.
             </p>
-            <a
-                href="https://residential-builder.netlify.app/"
-                target="_blank"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white
-            bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none
-            focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-            cursor-pointer"
-            >
-                Conoce el proyecto
-                <ArrowIcon size="size-6" />
+            <div class="mt-auto">
+                <a
+                    href="https://residential-builder.netlify.app/"
+                    target="_blank"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white
+                    bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none
+                    focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+                    cursor-pointer"
+                >
+                    Conoce el proyecto
+                    <ArrowIcon size="size-6" />
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <article
+        class="flex flex-col h-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+    >
+        <a target="_blank" href="https://furniture-store-dg3017.netlify.app/">
+            <Image
+                src={Portada02}
+                alt=""
+                class="w-full aspect-video object-cover"
+            />
+        </a>
+        <div class="flex flex-col p-5 flex-grow">
+            <a href="https://furniture-store-dg3017.netlify.app/">
+                <h5
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                    Tienda de muebles
+                </h5>
             </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Landing page desarrollada con React y Tailwind CSS, utilizando
+                componentes reutilizables, diseño mobile-first y sintaxis
+                moderna de JavaScript.
+            </p>
+            <div class="mt-auto">
+                <a
+                    href="https://furniture-store-dg3017.netlify.app/"
+                    target="_blank"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white
+                    bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none
+                    focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+                    cursor-pointer"
+                >
+                    Conoce el proyecto
+                    <ArrowIcon size="size-6" />
+                </a>
+            </div>
         </div>
     </article>
 </div>
