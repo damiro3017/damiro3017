@@ -19,7 +19,7 @@
 <article class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row">
     <div class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1">
         <p>
-            Soy <strong>Damiro Gómez</strong>, estudiante de <strong>Ingeniería Multimedia</strong> especializado en Desarrollo Frontend y Diseño Gráfico. Trabajo con <strong>React</strong> y <strong>Astro</strong>, combinando creatividad y código para crear interfaces modernas y funcionales.
+            Estudiante de <strong>Ingeniería Multimedia</strong> especializado en Desarrollo Frontend y Diseño Gráfico. Trabajo con <strong>React</strong> y <strong>Astro</strong>, combinando creatividad y código para crear interfaces modernas y funcionales.
         </p>
     </div>
 </article>
@@ -41,18 +41,17 @@
 
 <h3>📊 Estadísticas</h3>
 
-<table width="100%" align="center">
+<table>
     <tr>
-        <td>
-            <img src="https://github-readme-streak-stats.herokuapp.com?user=damiro3017&theme=dark&mode=weekly" width="100%" />
+        <td align="center" width="50%">
+            <a href="https://git.io/streak-stats">
+                <img src="https://streak-stats.vercel.app?user=damiro3017&theme=dark&hide_border=true&mode=weekly" alt="GitHub Streak" width="100%" />
+            </a>
+            <br />
+            <img src="https://github-readme-stats.vercel.app/api?username=damiro3017&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" width="100%" />
         </td>
-        <td width="50%">
-            <img src="https://github-readme-stats.vercel.app/api?username=damiro3017&show_icons=true&theme=dark" width="100%" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=damiro3017&layout=compact&theme=dark" width="100%" />
+        <td align="center" width="50%">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=damiro3017&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="100%" />
         </td>
     </tr>
 </table>
