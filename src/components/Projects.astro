@@ -1,35 +1,31 @@
 ---
 import { Image } from "astro:assets";
-import Portada01 from "../assets/portada_01.png";
-import Portada02 from "../assets/portada_02.png";
-import Portada03 from "../assets/portada_03.png";
 import PortadaGemini from "../assets/portada_gemini.png";
+import PortadaYouTube from "../assets/portada_youtube.png";
+import PortadaEdmi3D from "../assets/portada_edmi3d.png";
 import ArrowIcon from "../icons/ArrowIcon.astro";
 
 const projects = [
     {
+        title: "Web EDMI 3D",
+        href: "https://edmi3d.netlify.app/",
+        image: PortadaEdmi3D,
+        description:
+            "Sitio web diseñado para EDMI 3D, un emprendimiento dedicado a la creación de figuras y material personalizado mediante impresión 3D.",
+    },
+    {
         title: "Prototipo Gemini Clone",
         href: "https://gemini-clone-dg3017.netlify.app/",
         image: PortadaGemini,
-        description: `Prototipo de aplicación web que utiliza la API de Gemini Flash 2.5 para generar respuestas inteligentes en tiempo real. Desarrollada con React y Tailwind CSS.`,
+        description:
+            "Prototipo de aplicación web que utiliza la API de Gemini Flash 2.5 para generar respuestas inteligentes en tiempo real. Desarrollada con React y Tailwind CSS.",
     },
     {
-        title: "Proyecto Residencial",
-        href: "https://residential-builder.netlify.app/",
-        image: Portada01,
-        description: `Sitio web desarrollado con React y Tailwind CSS inspirado en un diseño de arquitectura residencial. Enfocado en la presentación visual de proyectos inmobiliarios, con navegación fluida, estructura modular y diseño responsivo.`,
-    },
-    {
-        title: "Tienda de muebles",
-        href: "https://furniture-store-dg3017.netlify.app/",
-        image: Portada02,
-        description: `Landing page desarrollada con React y Tailwind CSS, utilizando componentes reutilizables, diseño mobile-first y sintaxis moderna de JavaScript.`,
-    },
-    {
-        title: "Galería de Imágenes",
-        href: "https://image-gallery-dg3017.netlify.app/",
-        image: Portada03,
-        description: `Aplicación desarrollada con React y Tailwind CSS que utiliza la API de Unsplash para mostrar una galería dinámica de imágenes. Permite explorar fotografías de alta calidad, búsqueda interactiva y diseño responsivo para una experiencia visual atractiva.`,
+        title: "Prototipo YouTube Clone",
+        href: "https://clone-youtube-dg.netlify.app/",
+        image: PortadaYouTube,
+        description:
+            "Clon funcional de la interfaz de YouTube, desarrollado con React y Tailwind CSS. Permite explorar videos simulados, navegar por secciones y probar una experiencia de usuario responsiva e intuitiva.",
     },
 ];
 ---
